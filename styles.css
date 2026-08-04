@@ -103,10 +103,27 @@ body {
 
 /* About section */
 .about {
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: auto;
-    display: none; /* Hide until content is added */
+    margin: 8px auto 24px;
+    padding: 30px 24px;
+    max-width: 1080px;
+    background: rgba(255, 255, 255, 0.94);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+    border-radius: 18px;
+    box-shadow: 0 14px 34px rgba(8, 43, 72, 0.2);
+}
+
+.about h2 {
+    margin: 0 0 14px;
+    text-align: center;
+    color: #103a5e;
+}
+
+.about p {
+    margin: 0;
+    color: var(--ink);
+    line-height: 1.7;
+    max-width: 940px;
+    margin-inline: auto;
 }
 
 /* Projects */
@@ -263,6 +280,12 @@ footer {
     .projects {
         margin: 0 12px;
         padding: 26px 16px 30px;
+        border-radius: 14px;
+    }
+
+    .about {
+        margin: 0 12px 16px;
+        padding: 24px 16px;
         border-radius: 14px;
     }
 }
